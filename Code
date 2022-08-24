@@ -1,0 +1,15 @@
+weight = float(input("Input Weight: "))
+conversion = input("Convert to (K)gs / (L)bs: ")
+conversion.lower()
+
+if conversion == "k":
+                converted = weight / 2.2
+                print(converted)
+
+elif conversion == "l":
+                converted = weight * 2.2
+                print(converted)
+
+else:
+                print("Please Enter Valid Value")
+                
